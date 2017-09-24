@@ -15,4 +15,3 @@ add_executable(GtkSocketPlugDemo source/main.cpp)
 target_link_libraries(GtkSocketPlugDemo
   ${X11_LIBRARIES}
   ${GTK3_LIBRARIES}
-  ${GTKMM3_LIBRARIES})
