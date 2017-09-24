@@ -13,5 +13,5 @@ cmake ..
 ```
 * Run the tests:
 ```
-./build/GtkSocketPlugDemo
+./GtkSocketPlugDemo
 ```
