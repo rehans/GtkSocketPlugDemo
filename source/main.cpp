@@ -32,7 +32,7 @@ int main(int argc, char** argv)
 {
   gtk_init (&argc, &argv);
 
-  image = cairo_image_surface_create_from_png("../GtkSocketPlugDemo/resource/1200px-GTK+_logo.svg.png");
+  image = cairo_image_surface_create_from_png("../resource/1200px-GTK+_logo.svg.png");
 
   auto window = gtk_window_new (GTK_WINDOW_TOPLEVEL);
   gtk_widget_set_size_request (window, 1200, 1200);
